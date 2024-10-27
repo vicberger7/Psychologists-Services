@@ -1,0 +1,13 @@
+.logo {
+    color: var(--color-green);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+  }
+  
+  .span {
+    color: var(--color-black);
+  }

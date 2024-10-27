@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  gap: 8px;
+}
+
+.login {
+  border-radius: 30px;
+  border: 1px solid rgba(25, 26, 21, 0.2);
+  padding: 14px 39px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.16px;
+  background: transparent;
+  transition: var(--animation);
+ 
+}
+
+.login:hover {
+  border: 1px solid var(--color-green);
+}
+
+.register {
+  padding: 14px 40px;
+  border-radius: 30px;
+  background: var(--color-green);
+  color: var(--color-white);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.16px;
+  border: none;
+  transition: var(--animation);
+}
+
+.register:hover {
+  background: var(--color-hovergreen);
+}

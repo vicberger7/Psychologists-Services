@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid rgba(84, 190, 150, 0.2);
+  padding: 10px;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.img {
+  border-radius: 15px;
+}
+
+.div {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #38cd3e;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  top: 7px;
+  right: 12px;
+}

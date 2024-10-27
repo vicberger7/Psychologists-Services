@@ -1,0 +1,16 @@
+.container {
+    background-color: rgba(84, 190, 150, 0.1);
+    background-image: linear-gradient(
+      330deg,
+      rgba(84, 190, 150, 0.15) 15%,
+      rgba(255, 255, 255, 1) 65%
+    );
+    height: 100vh;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    margin-top: 78px;
+  }

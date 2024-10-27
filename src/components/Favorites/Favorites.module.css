@@ -1,0 +1,21 @@
+.container {
+    margin-top: 64px;
+    margin-bottom: 100px;
+  }
+  
+  .button {
+    display: block;
+    padding: 14px 48px;
+    border-radius: 30px;
+    background: var(--color-green);
+    margin: 0 auto;
+    color: #fbfbfb;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.16px;
+    transition: var(--animation);
+  }
+  
+  .button:hover {
+    background: var(--color-hovergreen);
+  }

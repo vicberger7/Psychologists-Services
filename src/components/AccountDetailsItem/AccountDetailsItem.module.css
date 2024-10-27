@@ -1,0 +1,24 @@
+.line {
+    width: 100%;
+    height: 1px;
+    border-radius: 10px;
+    background: rgba(25, 26, 21, 0.1);
+  }
+  
+  .details {
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .detailsKey {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  .detailsValue {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+  }

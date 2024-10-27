@@ -1,0 +1,109 @@
+.container {
+  width: 100%;
+}
+
+.subtitle {
+  color: var(--color-gray);
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.upperDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.upperInfo {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  margin-right: 16px;
+  margin-left: 8px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.div {
+  width: 1px;
+  height: 16px;
+  background: rgba(25, 26, 21, 0.2);
+  margin-right: 16px;
+}
+
+.price {
+  margin-right: 28px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.priceAmount {
+  color: #38cd3e;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.button {
+  background: transparent;
+}
+
+.svg {
+  fill: transparent;
+  stroke: gray;
+  cursor: pointer;
+}
+
+.svg:hover {
+  fill: red;
+  stroke: red;
+}
+
+.favorited {
+  fill: red;
+  stroke: red;
+}
+
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 4px;
+  margin-bottom: 24px;
+  max-width: 880px;
+}
+
+.advantagesItem {
+  border-radius: 24px;
+  background: var(--color-background);
+  padding: 8px 16px;
+  color: var(--color-gray);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.spanWord {
+  color: var(--color-black);
+}
+
+.about {
+  color: rgba(25, 26, 21, 0.5);
+  line-height: 1.25;
+}
+
+.readMore {
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  background: transparent;
+  margin-top: 14px;
+}

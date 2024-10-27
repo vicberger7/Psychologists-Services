@@ -1,0 +1,55 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    background-color: rgba(47, 47, 47, 0.6);
+    animation: fadeIn 0.2s ease-in-out forwards;
+  }
+  
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+  
+  .modalContent {
+    padding: 64px;
+    margin: 40px auto;
+    position: relative;
+    border-radius: 30px;
+    background-color: white;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .icon {
+    color: var(--color-black);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: var(--animation);
+  }
+  
+  .icon:hover {
+    color: var(--color-green);
+  }
+  
+  /* .modalOpen {
+    overflow: hidden;
+    padding-right: 8px;
+  } */

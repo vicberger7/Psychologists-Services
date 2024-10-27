@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.16px;
+  }
+
+  @media (max-width: 1440px) {
+    .container {
+      gap:20px 
+    }
+  }
+  
+  .container a {
+    transition: var(--animation);
+  }
+  
+  .container a:hover {
+    color: var(--color-green);
+  }
+  
+  .active {
+    position: relative;
+  }
+  
+  .active::after {
+    position: absolute;
+    bottom: -12px;
+    right: 50%;
+    transform: translate(50%);
+    content: '';
+    display: block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: var(--color-green);
+    margin: 0 auto;
+  }
+  
+  .link::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: transparent;
+  }

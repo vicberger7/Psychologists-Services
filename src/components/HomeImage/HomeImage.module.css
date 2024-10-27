@@ -1,0 +1,85 @@
+.wrapper {
+    position: relative;
+  }
+  
+  .img {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .peopleDiv {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #fbc75e;
+    border-radius: 10px;
+    transform: rotate(15deg);
+    top: 38px;
+    right: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .questionIcon {
+    max-height: 17px;
+  }
+  
+  .questionDiv {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #4535af;
+    border-radius: 10px;
+    transform: rotate(-15deg);
+    top: 185px;
+    left: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .questionIcon {
+    transform: rotate(15deg);
+    max-height: 17px;
+  }
+  
+  .mainDiv {
+    position: absolute;
+    height: 118px;
+    width: 311px;
+    background: var(--color-green);
+    border-radius: 20px;
+    bottom: 75px;
+    left: -101px;
+    padding: 32px;
+    display: flex;
+    gap: 16px;
+  }
+  
+  .check {
+    width: 54px;
+    height: 54px;
+    border-radius: 13px;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mainDivWrapper {
+    max-width: 177px;
+  }
+  
+  .text {
+    color: rgba(251, 251, 251, 0.5);
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .price {
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+  }

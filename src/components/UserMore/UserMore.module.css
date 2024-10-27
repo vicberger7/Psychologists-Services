@@ -1,0 +1,68 @@
+.container {
+    margin-top: 48px;
+  }
+  
+  .reviewerList {
+    margin-bottom: 40px;
+  }
+  
+  .reviewer {
+    margin-bottom: 25px;
+  }
+  
+  .wrapper {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .ratingWrapper {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .logo {
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background: rgba(84, 190, 150, 0.2);
+    color: var(--color-green);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  
+  .name {
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 4px;
+  }
+  
+  .rating {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+  }
+  
+  .comment {
+    color: rgba(25, 26, 21, 0.5);
+    line-height: 1.25;
+  }
+  
+  .button {
+    padding: 14px 32px;
+    border-radius: 30px;
+    background: var(--color-green);
+    color: var(--color-white);
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.16px;
+    transition: var(--animation);
+  }
+  
+  .button:hover {
+    background: var(--color-hovergreen);
+  }
