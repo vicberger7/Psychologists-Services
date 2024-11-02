@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'modern-normalize/modern-normalize.css';
 import { BrowserRouter } from 'react-router-dom';
@@ -10,7 +10,7 @@ import './index.css';
 import { PersistGate } from 'redux-persist/integration/react';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
       <HelmetProvider>
@@ -20,5 +20,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </HelmetProvider>
     </PersistGate>
     </Provider>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
