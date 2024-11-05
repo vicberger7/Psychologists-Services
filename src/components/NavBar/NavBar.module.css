@@ -5,11 +5,7 @@
     max-height: 96px;
   }
 
-  @media (max-width: 768px) {
-    .container {
-      gap: 50px;
-    }
-  }
+
   
   .linkMenu {
     padding: 10px 0;

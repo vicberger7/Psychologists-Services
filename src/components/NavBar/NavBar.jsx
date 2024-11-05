@@ -1,13 +1,13 @@
-import { useSelector } from 'react-redux';
-import { Container } from '../Container/Container';
-import { Logo } from '../Logo/Logo';
-import { NavLinks } from '../NavLinks/NavLinks';
-import { NavLog } from '../NavLog/NavLog';
-import { selectLoading, selectUser } from '../../redux/selectors';
-import { UserMenu } from '../UserMenu/UserMenu';
-import ContentLoader from 'react-content-loader';
+import { useSelector } from "react-redux";
+import { Container } from "../Container/Container";
+import { Logo } from "../Logo/Logo";
+import { NavLinks } from "../NavLinks/NavLinks";
+import { NavLog } from "../NavLog/NavLog";
+import { selectLoading, selectUser } from "../../redux/selectors";
+import { UserMenu } from "../UserMenu/UserMenu";
+import ContentLoader from "react-content-loader";
 
-import css from './NavBar.module.css';
+import css from "./NavBar.module.css";
 
 export const NavBar = () => {
   const isLoggedIn = useSelector(selectUser);
@@ -17,8 +17,8 @@ export const NavBar = () => {
     <div className={css.navBar}>
       <Container>
         <header className={css.container}>
+          <Logo />
           <nav className={css.linkMenu}>
-            <Logo />
             <NavLinks />
           </nav>
           {isLoading ? (

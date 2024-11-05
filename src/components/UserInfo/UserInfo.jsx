@@ -11,11 +11,7 @@ import {
   removeFavorite,
 } from "../../redux/favorites/favoritesSlice";
 import { toast } from "react-hot-toast";
-import {
-  selectFavorites,
-  selectIsLoggedIn,
-
-} from "../../redux/selectors";
+import { selectFavorites, selectIsLoggedIn } from "../../redux/selectors";
 
 export const UserInfo = ({ item }) => {
   const [isReadMore, setIsReadMore] = useState(false);
@@ -30,16 +26,15 @@ export const UserInfo = ({ item }) => {
 
   const favorites = useSelector(selectFavorites);
 
-
   const isFavorite = favorites.some(
     (favorite) => favorite.avatar_url === item.avatar_url
   );
 
-
-
   const toggleFavorites = () => {
     if (!isLoggedIn) {
-      toast.error("Please register or log in to add the teacher to your favorites");
+      toast.error(
+        "Please register or log in to add the teacher to your favorites"
+      );
     } else {
       if (isFavorite) {
         dispatch(removeFavorite(item));
@@ -50,9 +45,6 @@ export const UserInfo = ({ item }) => {
       }
     }
   };
-
-
-  
 
   return (
     <div className={css.container}>
@@ -72,13 +64,16 @@ export const UserInfo = ({ item }) => {
             >{` ${item.price_per_hour}$`}</span>
           </p>
 
-          <button className={css.button} onClick={toggleFavorites} >
-            {isFavorite ? (
-              <LuHeart className={css.favorited} size={26} />
+          <button className={css.button} onClick={toggleFavorites}>
+            {isLoggedIn ? (
+              isFavorite ? (
+                <LuHeart className={css.favorited} size={26} />
+              ) : (
+                <LuHeart className={css.svg} size={26} />
+              )
             ) : (
               <LuHeart className={css.svg} size={26} />
             )}
-         
           </button>
         </div>
       </div>
