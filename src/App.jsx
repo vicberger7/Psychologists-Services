@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { SharedLayout } from './components/SharedLayout/SharedLayout';
 import { lazy, useEffect } from 'react';
-import { auth } from './firebase.js';
+import { auth } from './firebase';
 import { loginUser, setLoading } from './redux/auth/authSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectLoading, selectUser } from './redux/selectors';
