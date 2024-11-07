@@ -14,7 +14,7 @@ const favoritesSlice = createSlice({
         (favorite) => favorite.avatar_url === action.payload.avatar_url
       );
 
-      // Only add the favorite if it's not already in the array
+    
       if (index === -1) {
         state.favorites = [...state.favorites, action.payload];
       }
@@ -25,7 +25,7 @@ const favoritesSlice = createSlice({
         (favorite) => favorite.avatar_url === action.payload.avatar_url
       );
 
-      // Remove the favorite if it exists in the array
+    
       if (index !== -1) {
         state.favorites.splice(index, 1);
       }

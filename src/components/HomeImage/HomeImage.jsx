@@ -7,7 +7,7 @@ export const HomeImage = () => {
   return (
     <div className={css.wrapper}>
       <img
-        // src="/Psychologists-Services/src/assets/woman.png"
+     
         src="/woman.png"
         alt="psychological consultations"
         width={464}

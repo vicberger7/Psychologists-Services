@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import css from './AccountDetailsItem.module.css';
 
 export const AccountDetailsItem = ({ title, value }) => {

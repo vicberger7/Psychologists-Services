@@ -1,7 +1,7 @@
-/* Usage of modern normalize */
+
 @import '../node_modules/modern-normalize/modern-normalize.css';
 
-/* Font connection */
+
 @font-face {
   font-family: 'Inter';
   src: url('/Inter-Regular.ttf');
