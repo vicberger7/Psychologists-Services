@@ -1,17 +1,10 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
-console.log(import.meta.env.VITE_FIREBASE_API_KEY);
+
 
 const firebaseConfig = {
-  // apiKey: "AIzaSyBw5BGzXVFRU8QgrcaE2efRe521voEzjeI",
-  // authDomain: "psychologists-services-68f26.firebaseapp.com",
-  // databaseURL: "https://psychologists-services-68f26-default-rtdb.europe-west1.firebasedatabase.app",
-  // projectId: "psychologists-services-68f26",
-  // storageBucket: "psychologists-services-68f26.appspot.com",
-  // messagingSenderId: "318736879149",
-  // appId: "1:318736879149:web:3366baeafc17008baa72a4",
-  // measurementId: "G-ZPTBYHYL11",
+
 
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
