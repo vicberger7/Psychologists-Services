@@ -19,6 +19,12 @@
   border: 1px solid var(--color-green);
 }
 
+@media (max-width: 694px) {
+  .login {
+  padding: 10px 30px;
+  }
+}
+
 .register {
   padding: 14px 40px;
   border-radius: 30px;

@@ -7,6 +7,11 @@
   line-height: 1;
   color: black;
 }
+ @media screen and (max-width:695px) {
+  .favoriteTitle {
+    margin-top: 64px;
+  }
+ }
 
 .favoriteImg {
   border-radius: 20px;

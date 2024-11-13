@@ -5,7 +5,15 @@
   .img {
     object-fit: cover;
     border-radius: 10px;
+ 
   }
+
+  @media  screen and (max-width: 580px) {
+    .img {
+      width: 100%;
+    }
+  }
+
   
   .peopleDiv {
     position: absolute;
@@ -46,16 +54,34 @@
   
   .mainDiv {
     position: absolute;
-    height: 118px;
-    width: 311px;
     background: var(--color-green);
     border-radius: 20px;
-    bottom: 75px;
-    left: -101px;
+    bottom: 20px;
+    left: 140px;
     padding: 32px;
     display: flex;
     gap: 16px;
   }
+
+   @media screen and (max-width: 610px) {
+  .mainDiv {
+     left: 40px; 
+    
+}
+  } 
+
+  @media screen and (max-width: 530px) {
+    .mainDiv {
+     
+      position: relative; 
+    
+      left: auto; 
+       bottom: 140px; 
+      width: 90%;  
+      max-width: 100%; 
+       margin: 0 auto; 
+  }
+    } 
   
   .check {
     width: 54px;

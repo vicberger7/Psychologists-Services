@@ -54,7 +54,7 @@ export const UserInfo = ({ item }) => {
           <h2 className={css.name}>{item.name}</h2>
         </div>
         <div className={css.upperInfo}>
-          <FaStar color="#FFC531" size={16} />
+          <FaStar className={css.star} color="#FFC531" size={16} />
           <p className={css.rating}>Rating: {item.rating}</p>
           <div className={css.div}></div>
           <p className={css.price}>

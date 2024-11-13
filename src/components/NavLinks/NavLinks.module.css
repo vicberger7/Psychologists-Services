@@ -1,16 +1,27 @@
+
 .container {
     display: flex;
-    gap: 40px;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.16px;
+    gap: 20px;
   }
 
-  @media (max-width: 1440px) {
+
+
+  
+
+  @media screen and (min-width: 726px) and (max-width: 768px) {
     .container {
-      gap:20px 
+      gap:5px ;
     }
   }
+
+   @media screen  and (min-width:769px){
+    .container {
+      gap:20px ;
+    }
+  } 
   
   .container a {
     transition: var(--animation);
